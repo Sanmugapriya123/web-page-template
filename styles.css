@@ -1,0 +1,47 @@
+.heading { float:left; font-size:25px; font-family:helvetica; color:#d1ec1d;}
+.dimensions{margin: 50px; width: 1200px;}
+.contact{ font-size:20px; float: left; margin-left: 400px; margin-right: 20px; padding-right:20px; border-right: 1px solid yellow;  }
+.address{   font-size: 20px; margin-right: 20px; border-right: 1px solid yellow; padding-right:20px; float: left; line-height: 20px;}
+.email{   font-size: 20px; margin-right: 20px; float: left;  line-height: 20px;}
+
+.menulist ul{ margin: 0; padding: 0;}
+.menulist li{ font-family:helvetica; float: left;  font-size: 15px; list-style-type: none; padding: 20px;padding-right: 55px;padding-bottom: 30px;}
+.menulist li a{ color: white; text-decoration: none;}
+.menulist li a:hover { background-color:yellow; }
+
+.intro h1{text-transform: uppercase;margin-left: 50px; font-family: helvetica; line-height: 40px; padding-top: 200px;}
+.intro p{ font-family: helvetica;margin-left: 50px;line-height: 25px; }
+.intro a{line-height:70px;background:#d1ec1d; margin:50px; color: white;text-decoration: none; font-family: helvetica; text-decoration: none; padding: 20px;}
+.textblock {
+text-align: center;
+height: 420px;
+font-family: helvetica;
+padding: 70px;
+line-height: 20px;}
+.textblock a{background:black;line-height: 100px; margin:50px; color: white;text-decoration: none; font-family: helvetica; text-decoration: none; padding: 20px;}
+
+
+.services{text-align: center;line-height: 20px;}
+
+.construction{ float:left; background: gray;  padding:60px; text-align: center; margin-right: 20px; margin-top: 40px;}
+.construction:hover{ background-image: url('images/cons.jpg');}
+.construction a{margin-top:50px;line-height: 30px;border: 1px solid black; margin:50px; color: white; font-family: helvetica; text-decoration: none; padding: 10px;}
+.construction a:hover{background:black;color: white; }
+
+.renovation{ float: left;background: gray; padding:60px;text-align: center;margin-right: 20px;margin-top: 40px;  }
+.renovation:hover{ background-image: url('images/reno.jpg');}
+.renovation a{ line-height: 30px;border: 1px solid black; margin:50px; color: white; font-family: helvetica; text-decoration: none; padding: 10px; }
+.renovation a:hover{background:black;color: white;}
+
+.architectural{float: left; background: gray;  padding:60px;text-align: center;margin-top: 40px; }
+.architectural:hover{background-image: url('images/arch.jpg');}
+.architectural a{line-height: 30px;border: 1px solid black; margin:50px; color: white; font-family: helvetica; text-decoration: none; padding: 10px;}
+.architectural a:hover{background:black;color: white; }
+
+.testimonials{line-height:20px;text-align: center; margin-top: 60px; background: gray;padding-bottom: 350px;padding-top: 50px; font-size: 18px;}
+
+.person1,.person2{line-height:20px;font-size:20px;border: 1px solid black; padding-top:10px;padding-right:50px;padding-left:40px; padding-bottom: 50px; 
+	float: left; margin-right: 20px;margin-top: 30px; margin-left:50px;text-align: left; }
+
+
+

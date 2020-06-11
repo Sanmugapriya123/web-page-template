@@ -1,0 +1,71 @@
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.coconut {
+  background-image: url("images/coconut2.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+ 
+.text-block {
+  position:relative;
+  height: 100%;
+  background-color: black;
+  color: solid black;
+}
+
+.container {
+  position:center;
+  
+  margin: 100px;
+  max-width: 1000px;
+
+  background-color: white;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-style: bold;
+  font-family: arial bold;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+  
+ 
